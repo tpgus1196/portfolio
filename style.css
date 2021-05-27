@@ -1,0 +1,112 @@
+*{margin: 0;padding: 0;}
+html, body{font-size: 12px;}
+a{text-decoration: none; color: inherit;}
+
+#wrap{
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    margin-top: 10%;
+}
+
+#wrap h1{
+    margin-bottom: 2rem;
+}
+#wrap h1 a{
+    font-size: 3rem;
+}
+#wrap p{
+    margin-top: 0.5rem;
+    font-size: 0.5rem;
+}
+
+#wrap ol{
+    margin-top: 3rem;
+}
+#wrap ol li{
+    padding: 1.5rem;
+}
+#wrap ol li a{
+    font-size: 1.5rem;
+}
+
+#wrap ol li:hover {
+    background: #ccc;
+    color: #fff;
+}
+
+.boxalign{
+    width: 1200px;
+    text-align: center;
+    margin: auto;
+}
+
+.animals{
+    width: 1000px;
+    margin-top: 4rem;
+}
+.exh img{
+    width: 70%;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+.exh{
+    float: left;
+    width: 400px;
+}
+.exh h1{
+    font-size: 1.5rem;
+}
+
+.insta img{
+    width: 40%;
+    margin-bottom: 2rem;
+}
+.insta{
+    float: right;
+    width: 600px;
+}
+.insta h1{
+    font-size: 1.5rem;
+}
+
+
+.brunch{
+    margin: 3rem auto;
+    padding-top: 3rem;
+    width: 1100px;
+    background: #cecece;
+}
+.brunch img{
+    width: 320px;
+    height: 490px;
+}
+
+.brunch img+img{
+    margin-left: 30px;
+}
+.brunch h1{
+    margin-top: 2rem;
+    padding-bottom: 1.5rem;
+    font-size: 1.5rem;
+}
+
+.brunch img:first-child{
+    height: 260px;
+    margin-bottom: 10%;
+}
+
+/*
+
+@media(max-width:800px){
+    div{display:none;}
+    #grid{
+        display: block;
+    }
+    ol{
+        border-right:none;
+    }
+    h1{
+        border-bottom:none;
+    }
+}*/
